@@ -6,7 +6,7 @@
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-Um sistema bancário desenvolvido em **.NET 8** para gerenciar clientes, contas e transações financeiras. O projeto segue boas práticas de arquitetura, separação de camadas, uso de DTOs, validação e persistência de dados com **Entity Framework Core**.
+Um sistema bancário desenvolvido em **.NET 9** para gerenciar clientes, contas e transações financeiras. O projeto segue boas práticas de arquitetura, separação de camadas, uso de DTOs, validação e persistência de dados com **Entity Framework Core**.
 
 O projeto foi desenvolvido como parte do desafio **DevTrail**, utilizando uma arquitetura limpa e modular, pronta para crescimento e manutenção profissional.
 
