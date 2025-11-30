@@ -78,16 +78,4 @@ public class ContaController(IContaService service) : ControllerBase
         return NoContent();
 
     }
-    [HttpDelete]
-    public async Task<bool> DeleteContaAsync(Guid id)
-    {
-        var conta = await service.BuscarPorIdAsync(id);
-        if (conta == null)
-            return false;
-        //context.Contas.Remove(conta);
-        //await context.SaveChangesAsync();
-
-        return true;
-    }
-   
 }
