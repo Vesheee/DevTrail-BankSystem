@@ -60,7 +60,7 @@ A arquitetura foi planejada para ser escalável, utilizando camadas independente
 
 O projeto segue uma arquitetura baseada em camadas para garantir a separação de responsabilidades:
 
-📂 SistemaBancarioDevTrail│├── 
+SistemaBancarioDevTrail 
 
 📂 ProjetoDevTrail.Api → Camada de apresentação (Controllers, Swagger, Mappers)
 
