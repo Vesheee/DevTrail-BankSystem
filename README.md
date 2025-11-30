@@ -59,8 +59,13 @@ A arquitetura foi planejada para ser escalável, utilizando camadas independente
 ## 🧱 Arquitetura do projeto
 
 O projeto segue uma arquitetura baseada em camadas para garantir a separação de responsabilidades:
-📂 SistemaBancarioDevTrail│├── 📂 ProjetoDevTrail.Api          → Camada de apresentação (Controllers, Swagger)├── 📂 ProjetoDevTrail.Application  → Serviços, DTOs, Mappers, Interfaces de Serviço├── 📂 ProjetoDevTrail.Domain       → Entidades, Enums, Interfaces de Repositório└── 📂 ProjetoDevTrail.Infra        → Contexto (EF Core), Repositórios, Mapeamentos, Migrations
----
+
+📂 SistemaBancarioDevTrail│├── 
+
+📂 ProjetoDevTrail.Api → Camada de apresentação (Controllers, Swagger, Mappers)
+📂 ProjetoDevTrail.Application  → Serviços
+📂 ProjetoDevTrail.Domain → Entidades, Enums, DTOs Interfaces de Serviço
+📂 ProjetoDevTrail.Infra → Contexto (EF Core), Repositórios, Migrations
 
 ## 🛠 Tecnologias utilizadas
 
