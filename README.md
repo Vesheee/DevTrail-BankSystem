@@ -63,8 +63,11 @@ O projeto segue uma arquitetura baseada em camadas para garantir a separação d
 📂 SistemaBancarioDevTrail│├── 
 
 📂 ProjetoDevTrail.Api → Camada de apresentação (Controllers, Swagger, Mappers)
+
 📂 ProjetoDevTrail.Application  → Serviços
+
 📂 ProjetoDevTrail.Domain → Entidades, Enums, DTOs Interfaces de Serviço
+
 📂 ProjetoDevTrail.Infra → Contexto (EF Core), Repositórios, Migrations
 
 ## 🛠 Tecnologias utilizadas
