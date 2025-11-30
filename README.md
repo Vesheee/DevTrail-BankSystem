@@ -86,12 +86,18 @@ SistemaBancarioDevTrail
 ### 1. Clonar o repositório
 
 🐳 Executando o SQL Server via DockerCaso não tenha o SQL Server instalado localmente, suba um container Docker:
+
 Bashdocker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YourStrong!Passw0rd" \
    -p 1433:1433 --name sqlserver-devtrail \
    -d [mcr.microsoft.com/mssql/server:2022-latest](https://mcr.microsoft.com/mssql/server:2022-latest)
    
-Verifique se o container está rodando:Bashdocker ps
-⚙️ ConfiguraçãoNo arquivo appsettings.json da API, configure a connection string:JSON"ConnectionStrings": {
+Verifique se o container está rodando:
+
+Bashdocker ps
+
+⚙️ ConfiguraçãoNo arquivo appsettings.json da API, configure a connection string:
+
+JSON  "ConnectionStrings": {
   "DefaultConnection": "Server=localhost,1433;Database=DevTrailDB;User=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;"
 }
 
@@ -101,10 +107,11 @@ dotnet ef migrations add InitialCreate --project ProjetoDevTrail.Infra --startup
 # Aplicar ao banco
 dotnet ef database update --project ProjetoDevTrail.Infra --startup-project ProjetoDevTrail.Api
 
-🚀 Rodando a APINa pasta raiz do projeto, 
+🚀 Rodando a API na pasta raiz do projeto,
+
 execute:Bashdotnet run --project ProjetoDevTrail.Api
 
-👨‍💻 Autor
+#👨‍💻 Autor
 <img style="border-radius: 50%;" src="https://www.google.com/url?sa=E&source=gmail&q=https://avatars.githubusercontent.com/u/9919?s=200%26v=4" width="100px;" alt=""/><br />
 Rafael Luis Caldas Vaz
 
