@@ -85,7 +85,8 @@ SistemaBancarioDevTrail
 
 ### 1. Clonar o repositório
 
-🐳 Executando o SQL Server via DockerCaso não tenha o SQL Server instalado localmente, suba um container Docker:Bashdocker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YourStrong!Passw0rd" \
+🐳 Executando o SQL Server via DockerCaso não tenha o SQL Server instalado localmente, suba um container Docker:
+Bashdocker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YourStrong!Passw0rd" \
    -p 1433:1433 --name sqlserver-devtrail \
    -d [mcr.microsoft.com/mssql/server:2022-latest](https://mcr.microsoft.com/mssql/server:2022-latest)
    
