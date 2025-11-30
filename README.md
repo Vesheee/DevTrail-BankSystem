@@ -100,5 +100,5 @@ execute:Bashdotnet run --project ProjetoDevTrail.Api
 Rafael Luis Caldas Vaz
 
 🚀 Desenvolvedor | Estudante de Ciência & Tecnologia | Técnico em Desenvolvimento de Sistemas📍 Salvador – Bahia
-<img width="800" height="800" alt="SP-Studio" src="https://github.com/user-attachments/assets/28b391d7-78ed-4b2f-9285-f55d6d75516a" />
+<img width="800" height="800" alt="Image" src="https://github.com/user-attachments/assets/d1233425-7e68-4154-bec1-6a37a27a90ac" />
 
