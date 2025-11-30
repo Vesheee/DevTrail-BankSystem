@@ -7,6 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="dtos\**" />
+    <EmbeddedResource Remove="dtos\**" />
+    <None Remove="dtos\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Application.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ProjetoDevTrail.Domain\ProjetoDevTrail.Domain.csproj" />
     <ProjectReference Include="..\ProjetoDevTrail.Infra\ProjetoDevTrail.Infra.csproj" />
   </ItemGroup>
