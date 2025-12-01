@@ -38,15 +38,14 @@ A arquitetura foi planejada para ser escalável, utilizando camadas independente
 ### 👤 Clientes
 - [x] Cadastro de cliente
 - [x] Consulta de cliente por ID
-- [x] Atualização de dados cadastrais
+- [x] Consulta de cliente por Cpf
 - [x] Relacionamento com contas bancárias
 
 ### 🏦 Contas
 - [x] Criar conta bancária
 - [x] Consultar conta específica
-- [x] Listar todas as contas
 - [x] Atualizar saldo (via transações)
-- [x] Alterar status (Ativa/Inativa)
+- [x] Alterar Conta (Numero, Tipo, Status(Ativa/Inativa))
 
 ### 💰 Transações
 - [x] Depósito
