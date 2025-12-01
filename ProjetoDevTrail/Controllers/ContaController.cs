@@ -37,7 +37,6 @@ public class ContaController(IContaService service) : ControllerBase
     {
         var contasEntities = await service.ObterContasPorClienteAsync(clienteId);
 
-        // Garanta que seu método ToViewModel() existe na classe Account
         var viewModel = contasEntities.Select(c => c.ToViewModel());
 
         return Ok(viewModel);

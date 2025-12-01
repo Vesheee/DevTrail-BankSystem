@@ -12,9 +12,8 @@ namespace ProjetoDevTrail.Api.extensions
             {
                 Id = t.Id,
                 Valor = t.Valor,
-                // Formatação brasileira de data e hora
                 DataHora = t.DataHora,
-                Tipo = t.Tipo.ToString(), // Converte o Enum para texto
+                Tipo = t.Tipo.ToString(), 
                 ContaOrigemId = t.ContaOrigemId,
                 ContaDestinoId = t.ContaDestinoId
             };
